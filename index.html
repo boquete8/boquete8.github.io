@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boquete</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+
+ 
+  <header>
+    <div class="container">
+      <div class="logo-background">
+  <img src="imagenes/logo_1.png" alt="Bokeh Logo" class="logo">
+</div>
+		<button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav">
+        <ul>
+          <li><a href="ilustraciones.html">Ilustraciones a Color</a></li>
+          <li><a href="lineart.html">Lineart</a></li>
+          <li><a href="vectorial.html">Diseño Vectorial</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main>
+    
+    <section class="profile">
+      <img src="imagenes/foto.jpg" alt="Foto de perfil" class="profile-photo">
+      <p class="profile-description">Boquete es la entrada a un mundo escondido bajo la superficie de lo ordinario. Soy Julian Nova y me he inspirado en la mística de los agujeros de conejo. Mi marca busca sumergirte en un universo de ilustraciones, donde la realidad se transforma en metáfora y cada trazo revela un pedazo de utopía. Boquete es un espacio donde la imaginación despliega sus alas; un lugar donde el color y la forma no solo expresan, sino que cuestion desafían y redefinen. Mi propósito es que, a través de mi arte, veas el dibujo no como un simple reflejo, sino como un espejo profundo y necesario, un eco de lo invisible que pulsa en nuestra mente y en nuestro espíritu.</p>
+    </section>
+
+    <!-- Ilustraciones a Color -->
+    <section class="portfolio-section" id="ilustraciones">
+      <h2>Ilustraciones a Color</h2>
+      <div class="image-grid">
+		  <a href="ilustraciones.html">
+			  <img src="imagenes/i1_1.jpg" alt="Ilustración a Color 1"> </a>
+		  
+		  <a href="ilustraciones.html">
+        <img src="imagenes/i2_1.jpg" alt="Ilustración a Color 2"></a>
+		  
+		  <a href="ilustraciones.html">
+        <img src="imagenes/i3_1.jpg" alt="Ilustración a Color 3"></a>
+      </div>
+    </section>
+
+    <!-- Lineart -->
+    <section class="portfolio-section" id="lineart">
+      <h2>Lineart</h2>
+      <div class="image-grid">
+		  <a href="lineart.html">
+        <img src="imagenes/i1l_1.jpg" alt="Lineart 1"></a>
+		  
+		  <a href="lineart.html">
+        <img src="imagenes/i2l_1.jpg" alt="Lineart 2"></a>
+		  
+		  <a href="lineart.html">
+        <img src="imagenes/i3l_1.jpg" alt="Lineart 3"></a>
+      </div>
+    </section>
+
+    <!-- Diseño Vectorial -->
+    <section class="portfolio-section" id="vectorial">
+      <h2>Diseño Vectorial</h2>
+      <div class="image-grid">
+		  <a href="vectorial.html">
+        <img src="imagenes/color_page-0001.jpg" alt="Diseño Vectorial 1"></a>
+		  
+		  <a href="vectorial.html">
+        <img src="imagenes/SERIGRAFIA_page-0001.jpg" alt="Diseño Vectorial 2"></a>
+			  
+			  <a href="vectorial.html">
+        <img src="imagenes/color_page-0003.jpg" alt="Diseño Vectorial 3"></a>
+      </div>
+    </section>
+	  
+	<div class="blog-sidebar">
+  <h2>Blog</h2>
+<p><a href="blog.html">¿Qué hay detrás de cada diseño? En este espacio comparto el proceso que da vida a las ideas...</a></p>
+</div>
+	  
+	  <div class="blog-sidebar2">
+  <h2>Blog</h2>
+<p><a href="blog.html">¿Qué hay detrás de cada diseño? En este espacio comparto el proceso que da vida a las ideas...</a></p>
+</div>
+	  
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+      <div class="social-media">
+        <h3>Contáctanos</h3>
+        <a href="https://wa.link/7oemx3">WhatsApp</a>
+        <a href="https://www.instagram.com/julian_baph?igsh=MTA5ODA5dXpjNXR5MQ==">Istagram</a>
+      </div>
+  </footer>
+	
+	<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.nav');
+
+  menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html> 
